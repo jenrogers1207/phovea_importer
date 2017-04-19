@@ -66,9 +66,9 @@
     "tslib": "1.6.0"
   },
   "dependencies": {
-    "phovea_core": "github:phovea/phovea_core#develop",
-    "phovea_ui": "github:phovea/phovea_ui#develop",
-    "phovea_d3": "github:phovea/phovea_d3#develop",
+    "phovea_core": "github:phovea/phovea_core#update_dependencies",
+    "phovea_ui": "github:phovea/phovea_ui#update_dependencies",
+    "phovea_d3": "github:phovea/phovea_d3#update_dependencies",
     "@types/papaparse": "4.1.28",
     "papaparse": "4.1.2",
     "@types/d3": "3.5.36",
