@@ -92,7 +92,6 @@ function editString(definition: ITypeDefinition) {
     dialog.body.innerHTML = `
         <div class="form-group">
           <label>Text Conversion</label>
-          
           <div class="radio">
             <label class="radio">
               <input type="radio" name="string-convert" value="" ${!convert ? 'checked="checked"' : ''}> None
@@ -432,7 +431,7 @@ export class ValueTypeEditor implements IValueTypeEditor {
 
   isType(name: string, index: number, data: any[], accessor: (row: any) => string, sampleSize: number) {
     return this.impl.isType(name, index, data, accessor, sampleSize);
-  };
+  }
 
   parse(def: ITypeDefinition, data: any[], accessor: (row: any, value?: any) => any): number[] {
     def.type = this.id;
